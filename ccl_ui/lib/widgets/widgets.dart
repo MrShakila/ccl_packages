@@ -27,10 +27,14 @@ part 'future_widget.dart';
 
 part 'progress/background_progress.dart';
 
+part 'progress/general_background_progress.dart';
+
 part 'stream_widget.dart';
 
 part 'ccl_localization/ccl_localization.dart';
 
 part 'ccl_localization/ccl_localization_model.dart';
+
+part 'ccl_localization/general_ccl_localization.dart';
 
 part 'ccl_localization/ccl_localization_provider.dart';

@@ -21,3 +21,5 @@ part 'secure_storage/impl/ss_device_id.dart';
 part 'secure_storage/impl/ss_locale.dart';
 
 part 'localization/localization_service.dart';
+
+part 'general/general_localization_service.dart';
