@@ -2,6 +2,7 @@ name: ccl_ui
 description: "CeylonCodeLabs UI Extensions"
 version: 0.2.3
 homepage: https://github.com/CeylonCodeLabs/ccl_packages
+publish_to: none
 
 environment:
   sdk: '>=3.2.0 <4.0.0'
@@ -10,7 +11,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  ccl_services: any
+  ccl_services: 
+    git:
+      url: https://github.com/MrShakila/ccl_packages.git
+      path: ccl_services
   ccl_core: any
   responsive_builder: ^0.7.0
   stacked: ^3.4.2
