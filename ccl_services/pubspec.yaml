@@ -1,10 +1,10 @@
 name: ccl_services
 description: "CeylonCodeLabs Service Extensions"
-version: 0.2.5
+version: 0.2.6
 homepage: https://github.com/CeylonCodeLabs/ccl_packages
 
 environment:
-  sdk: '>=3.2.0 <4.0.0'
+  sdk: '>=3.8.0 <4.0.0'
   flutter: ">=1.17.0"
 
 dependencies:
@@ -13,7 +13,7 @@ dependencies:
   ccl_core: any
   stacked: ^3.4.2
   stacked_services: ^1.5.0
-  flutter_secure_storage: any
+  flutter_secure_storage: ^11.2.0
   rxdart: any
   intl: any
 
